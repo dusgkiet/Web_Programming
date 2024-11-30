@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Đồng Hồ Đếm Ngược</title>
+</head>
+<body>
+    <h1>Đồng Hồ Đếm Ngược</h1>
+
+    <div id="demNguoc">10:00</div>
+
+    <script>
+        var thoiGianConLai = 10 * 60; // Đổi "10* 60" thành "10 * 60" để tránh lỗi
+        var demNguocElement = document.getElementById("demNguoc");
+
+        function capNhatDemNguoc() {
+            var phut = Math.floor(thoiGianConLai / 60);
+            var giay = thoiGianConLai % 60;
+
+            demNguocElement.textContent = phut + ":" + (giay < 10 ? "0" : "") + giay; // Đã sửa lỗi chính tả
+            thoiGianConLai--;
+            if (thoiGianConLai < 0) {
+                clearInterval(demNguocInterval); // Dừng đồng hồ khi hết giờ
+                demNguocElement.textContent = "Hết giờ";
+            }
+        }
+
+        var demNguocInterval = setInterval(capNhatDemNguoc, 1000); 
+    </script>
+
+</body> 
+</html>
+
+
+
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHIẾU ĐĂNG KÝ</title>
+</head>
+<body>
+    <H1> Phiếu Đăng Ký</H1>
+    <form action = "Phieudangky.php" method = "post">
+        <label for = "user">Họ và tên:</label>
+        <input type="text" id="user" name="user" requier />(*)<br>
+        <label for = "address">Địa chỉ:</label>
+        <input type="text" id="address" name="address" requier/><br/>
+        <label for = "email">Email:</label>
+        <input type = "email" id = "email" name = "email" requier>(*)<br/>
+
+
+
+        <fielset id = "gioi tinh">
+            <legan>Giới tính: </legan>
+            <input type = "radio" id = "male" name = "gioitinh"/>
+            <label for = "male">Nam</label>
+            <input type = "radio" id = "female" name = "gioitinh"/>
+            <label for = "female">Nữ</label>
+            
+        </fielset><br/>
+        <label for = "tuoi">Tuổi: </label>
+        <input type = "age" id = "age" name = "tuoi"/>(*)<br/>
+        <lable for = " so_thich">Sở thích:</lable>
+        
+        <input type = "checkbox" id = "the_thao" name = "so_thich" value = "Thể thao"/>
+        <lable for = "the_thao">Thể thao</lable><br>
+        <input type = "checkbox" id = "van_hoc" name = "so_thich" value = "Văn học"/>
+        <lable for = "van_hoc">Văn học</lable><br>
+        <input type = "checkbox" id = "cong_nghe_thong_tin" name = "so_thich" value = "Công nghệ thông tin"/>
+        <lable for = "cong_nghe_thong_tin">Công nghệ thông tin</lable><br>
+        <input type = "checkbox" id = "lich_su" name = "so_thich" value = "Lịch sử"/>
+        <lable for = "lich_su">Lịch sử</lable><br>
+        <input type = "checkbox" id = "game" name = "so_thich" value = "Game"/>
+        <lable for = "game">Game</lable><br>
+
+
+        <label for = "chuyen_nganh">Chuyên ngành: </label>
+        <select id = "chuyen_nganh" name = "chuyen_nganh">
+            <option value = "Công nghệ Web">Công nghệ Web</option>
+            <option value = "Kỹ thuật phần mềm">Kỹ thuật phàn mềm</option>
+            <option value = "An toàn thông tin">An toàn thông tin</option>
+            <option value = "Trí tuệ nhân tạo">Trí tuệ nhân tạo</option>
+        </select><br/>
+
+        <label for ="picture">Gửi hình: </label>
+        <input type = "text" name = "picture">
+        <input type = "submit" value = "Browser..." name = "submit"><br/>
+
+        <label for ="yeu_cau">Yêu cầu: </label>
+        <textarea id = "yeu_cau" name = "yeu_cau " rows = "4" cols = "50"> </textarea><br/>
+        
+
+        <input type = "submit" value = "Gửi thông tin"/>
+        <input type ="button" value = "Nhập lại"/>
+
+
+    </form>
+</body>
+</html>

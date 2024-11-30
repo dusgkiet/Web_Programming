@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ĐĂNG KÝ Mua Hoa</title>
+</head>
+<body>
+    <H1>Đăng Ký Mua Hoa</H1>
+        <p style="color: red;">Quý đọc giả hãy điền đầy đủ các thông tin theo yêu cầu để nhận được sản 
+            phẩm hoa. Cây cảnh ưa thích nhất<p>
+    <form action = "Phieudangky.php" method = "post">
+        <label for = "user">Họ và tên:</label>
+        <input type="text" id="user" name="user" requier />(*)<br>
+        <label for = "address">Địa chỉ:</label>
+        <input type="text" id="address" name="address" requier/>(*)<br>
+        <label for = "phone">Điện thoại:</label>
+        <input type="text" id="phone"name="phone"requier/>(*)<br>
+        <label for = "email">Email:</label>
+        <input type = "email" id = "email" name = "email" requier>(*)<br/>
+
+        <label for = "loai_hoa">Loại hoa: </label>
+        <select id = "loai_hoa" name = "loai_hoa">
+            <option value = "Hoa Hồng">Hoa Hồng</option>
+            <option value = "Hoa Mai">Hoa Mai</option>
+            <option value = "Hoa Tulip">Hoa Tulip</option>
+            <option value = "Hoa Hướng Dương">Hoa Hướng Dương</option>
+            <option value = "Hoa Cúc">Hoa Cúc</option>
+        </select>
+
+        <label for = "mau">Màu: </label>
+        <select id = "mau" name = "mau">
+            <option value = "red">Đỏ</option>
+            <option value = "yellow">Vàng</option>
+            <option value = "pink">Hồng</option>
+            <option value = "white">Trắng</option><br/>
+        </select><br/>    
+    
+        <label for = "so_luong">Số Lượng:</label>
+        <input type = "so_luong" id = "so_luong" name = "so_luong" requier>(*)<br/>
+        </select>
+
+        <fielset id = "don vi tinh">
+            <legan>Đơn vị tính: </legan>
+            <input type = "radio" name = "nhanh"/>
+            <label for = "nhanh">Nhánh</label>
+            <input type = "radio" name = "bo"/>
+            <label for = "bo">Bó</label>
+            <input type = "radio" name = "chau"/>
+            <label for = "chau">Chậu</label>
+        </select><br>
+        <fielset id = "thanh toan">
+            <legan>Thanh toán: </legan>
+            <input type = "radio" name = "tien mat"/>
+            <label for = "tien mat">Tiền mặt</label>
+            <input type = "radio" name = "chuyen khoan"/>
+            <label for = "chuyen khoan">Chuyển khoản</label>
+            <input type = "radio" name = "master card"/>
+            <label for = "master card">Master card</label>
+        </select><br> 
+        <label for ="yeu_cau">Yêu cầu: </label>
+        <textarea id = "yeu_cau" name = "yeu_cau " rows = "4" cols = "50"> </textarea><br/>
+            
+    
+            <input type = "submit" value = "Đăng ký"/>
+            <input type ="button" value = "Nhập lại"/>
+    
+    
+        </form>
+    </body>
+    </html>
