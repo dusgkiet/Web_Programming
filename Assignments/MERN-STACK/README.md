@@ -9,10 +9,10 @@
 
 1. MERN Stack là một bộ công cụ công nghệ để phát triển các ứng dụng web full-stack, bao gồm 4 thành phần chính:
 
-> M - MongoDB: Cơ sở dữ liệu NoSQL để lưu trữ dữ liệu dạng JSON.<br>
-> E - Express.js: Framework backend của Node.js giúp xử lý API và quản lý máy chủ.<br>
-> R - React.js: Thư viện frontend giúp xây dựng giao diện người dùng.<br>
-> N - Node.js: Môi trường chạy JavaScript ở phía server.<br>
+* M - MongoDB: Cơ sở dữ liệu NoSQL để lưu trữ dữ liệu dạng JSON.<br>
+* E - Express.js: Framework backend của Node.js giúp xử lý API và quản lý máy chủ.<br>
+* R - React.js: Thư viện frontend giúp xây dựng giao diện người dùng.<br>
+* N - Node.js: Môi trường chạy JavaScript ở phía server.<br>
 
 ```
 # Clone the repository
