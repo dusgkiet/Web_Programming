@@ -1,0 +1,82 @@
+Bài 1: Viết hàm chuyển đoạn văn bản tiếng việt có dấu sang văn bản không dấu:
+VD: 	- input: Lập trình web nâng cao
+	- output: Lap trinh web nang cao
+
+Bài 2: Cho mảng dữ liệu data gồm 10 phần tử, mỗi phần tử chưa thông tin 1 người gồm id, name, age, city:
+
+const data = [
+  {
+    id: 1,
+    name: "Trần Mạnh Ba",
+    age: 30,
+    city: "Thái Nguyên",
+  },
+  {
+    id: 2,
+    name: "Lê Ngọc Mai",
+    age: 28,
+    city: "Đồng Tháp",
+  },
+  {
+    id: 3,
+    name: "Cao Thế Mỹ",
+    age: 25,
+    city: "Tiền Giang",
+  },
+  {
+    id: 4,
+    name: "Nguyễn Minh Tuấn",
+    age: 35,
+    city: "Bình Dương",
+  },
+  {
+    id: 5,
+    name: "Trần Quang Hân",
+    age: 32,
+    city: "Đăk Nông",
+  },
+  {
+    id: 6,
+    name: "Vũ Thị Mỹ Lệ",
+    age: 27,
+    city: "TP Hồ Chí Minh",
+  },
+  {
+    id: 7,
+    name: "Nguyễn Xuân Huệ",
+    age: 33,
+    city: "Long An",
+  },
+  {
+    id: 8,
+    name: "Trần Thị Giáo",
+    age: 29,
+    city: "Vĩnh Long",
+  },
+  {
+    id: 9,
+    name: "Bùi Trọng Hải",
+    age: 31,
+    city: "Bình Định",
+  },
+  {
+    id: 10,
+    name: "Dương Thanh Tâm",
+    age: 26,
+    city: "Bạc Liêu",
+  },
+];
+
+Hãy thực hiện các yêu cầu sau và hiển thị kết quả lên trình duyệt:
+	a. Hiển thị danh sách dữ liệu trên lên trình duyệt
+	b. Hiển thị thông tin người có tuổi lớn nhất
+	c. Hiển thị thông tin của người có id là 4.
+	d. Hiển thị thông tin từ người thứ 3 đến người thứ 7.
+	e. Sắp xếp danh sách theo thứ tự tuổi giảm dần.
+	f. Tạo chức năng tìm kiếm theo tên không phân biệt chữ hoa chữ thường.
+	g. Hãy thêm 1 phần từ vào cuối danh sách trên sau đó hiển thị lên trình duyệt, các yêu cầu bao gồm: 
+		- Dữ liệu thêm nhập từ giao diện web.
+		- Các thông tin về tên, tuổi và địa chỉ là bắt buộc.
+		- Phần tên phải chứa ít nhất 8 ký tự và không chứa ký tự số và ký tự đặc biệt.
+		- Phần tuổi phải là số nguyên dương.
+	h. Ta thấy ở dữ liệu tên gốc chứa họ và tên đầy đủ. Bạn hãy tạo danh sách chỉ chứa phần tên sau khi đã tách từ tên đầy đủ ban đầu.
